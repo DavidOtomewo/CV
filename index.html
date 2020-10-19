@@ -9,32 +9,52 @@
   <meta charset="utf-8"> <!-- Meta data is information about the data on the page, it decribes the document in the head, who wrote it. charset is telling the browser to open the page with UTF 8 encoding (standard encoding) -->
   <meta name="description" content="A personal web site for David Otomewo, made in 2020">
   <title> David's Personal Site</title><!-- title of the page, will be listed on the tab -->
+<!-- inline css that will affect all the elements rather than repeating code, more efficient -->
+  <style>
+
+    body {
+      background-color: #eaffd0;;
+    }
+
+    Hr{
+      background-color: white;
+      border-style: none;
+
+
+    }
+  </style>
+
 </head>
 
 <body>
-  <table cellspacing = 10 >
-    <tr> <td><img src="circle-cropped-David.png" alt="website for David"></td>
-    <td> <h1> David Otomewo </h1>
-    <p><em> IT Account Manager for <strong><a href="https://www.stayahead.com/"> StayAhead Training</a> </strong>. </em></p>
-    <!-- a is th html element, href is the attribute, has a start and end tag, https is our link destination, stayahead training is the link name that will be displayed overthe text-->
+  <!--style allows the use of css code-->
+  <table cellspacing=10>
+    <tr>
+      <td><img src="circle-cropped-David.png" alt="website for David"></td>
+      <td>
+        <h1> David Otomewo </h1>
+        <p><em> IT Account Manager for <strong><a href="https://www.stayahead.com/"> StayAhead Training</a> </strong>. </em></p>
+        <!-- a is th html element, href is the attribute, has a start and end tag, https is our link destination, stayahead training is the link name that will be displayed overthe text-->
 
-    <!-- <em></em> repreents stress emphasis of its contents, <i></i> is only for the style, same thing for <strong></strong> vs <b></b> -->
-    <br>
-    <!-- <p></p> is to organise its contents in a paragraph format -->
-    <p>I am a Sales professional with over 6 years sales experience
-      in Telesales consulting and 5 years experience in B2B and
-      recruitment. I also have a strong passion for digital
-      marketing.
-      I am very passionate about helping people progress,
-      whether it's through education or anything that will add
-      value to their lives. </p></td> </tr>
+        <!-- <em></em> repreents stress emphasis of its contents, <i></i> is only for the style, same thing for <strong></strong> vs <b></b> -->
+        <br>
+        <!-- <p></p> is to organise its contents in a paragraph format -->
+        <p>I am a Sales professional with over 6 years sales experience
+          in Telesales consulting and 5 years experience in B2B and
+          recruitment. I also have a strong passion for digital
+          marketing.
+          I am very passionate about helping people progress,
+          whether it's through education or anything that will add
+          value to their lives. </p>
+      </td>
+    </tr>
   </table>
 
   <hr>
   <h3> <strong>Education</strong></h3>
 
   <a href="https://www.gre.ac.uk/events/opendays?gclid=Cj0KCQjwtsv7BRCmARIsANu-CQcFjENrXO7D_8-XVB5w8I_s8wP37RhfjNNqNf81b9Bapda96ShrAKwaAqJeEALw_wcB">LONDON UNIVERSITY OF GREENWICH
-      BSC Computing 2009</a>L
+    BSC Computing 2009</a>
   <ul>
     <!-- <ul></ul> unordered list, encloses all of the list items,<li></li> encloses each list item -->
     <li>· Year 1 - Java programming, Logical foundation (advanced
@@ -44,63 +64,68 @@
     <li>· Year 3 – HCI, database systems, project</li>
   </ul>
   <br>
-    West London College
-    HND Computer science 2006
+  West London College
+  HND Computer science 2006
   <ul>
     <li>· Programming at work</li>
     <li>· Database systems learning</li>
   </ul>
   <hr>
   <h3> Work Experience</h3>
-  <table cellspacing ="10">
-    <thead><!--allows you to seperate diffrent parts of the table thead, tbody, tfoot, which is good if you wish to style different sections-->
+  <table cellspacing="10">
+    <thead>
+      <!--allows you to seperate diffrent parts of the table thead, tbody, tfoot, which is good if you wish to style different sections-->
       <tr>
-        <th>Dates</th><!--table header for title of table columns, automatically makes it a header text-->
+        <th>Dates</th>
+        <!--table header for title of table columns, automatically makes it a header text-->
         <th>Company</th>
       </tr>
     </thead>
     <tbody>
-      <tr><!-- each row in the table-->
-        <td>2013-2018  </td><!--each cell in the row, also known as table data-->
+      <tr>
+        <!-- each row in the table-->
+        <td>2013-2018 </td>
+        <!--each cell in the row, also known as table data-->
         <td> AVADO Learning </td>
       </tr>
       <tr>
-        <td>2018-2019  </td>
+        <td>2018-2019 </td>
         <td> Renaisancce Learning</td>
       </tr>
     </tbody>
   </table>
   <hr>
-<h3>Skills</h3>
+  <h3>Skills</h3>
 
-<table cellspacing ="10"><!--this isa table within a column, that has rows and colums inside the main column.-->
-      <tr>
-        <td>JavaScipt</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>HTML </td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>⭐</td>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>SEO </td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>JAVA</td>
-        <td>⭐</td>
-      </tr>
-    </table>
+  <table cellspacing="10">
+    <!--this isa table within a column, that has rows and colums inside the main column.-->
+    <tr>
+      <td>JavaScipt</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>HTML </td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>⭐</td>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>SEO </td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>JAVA</td>
+      <td>⭐</td>
+    </tr>
+  </table>
 
-</table>
+  </table>
 
 
 
